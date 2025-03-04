@@ -1,4 +1,4 @@
-const DEMO_KEY = "REPLACE ME";
+const DEMO_KEY = "CG-uLHyaCfjD7crBWcMKj7h4pe2";
 
 const coin = {
 	async ping() {

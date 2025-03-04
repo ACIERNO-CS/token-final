@@ -7,7 +7,7 @@ To run a local instance of this project, simply replace the CoinGecko DEMO_KEY i
 npm install
 npm run dev
 ```
-Otherwise, an instance is currently hosted [here](https://github.com/ACIERNO-CS/token-project).
+Otherwise, an instance is currently hosted [here](https://token-project-production.onrender.com/).
 
 The Docusaurus project can be run similarly, by calling
 ```bash

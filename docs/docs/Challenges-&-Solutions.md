@@ -1,0 +1,3 @@
+# Challenges And Solutions
+
+The main issues that came up in the project were isolation and redundancy. As the project is working with a limited number of API calls, it is important to cache results when necessary to avoid a search function repeatedly calling the endpoints without it being necessary. If the Token results were itemized as components, unmounting them during search filtering could multiply the amount of calls made to the CoinGecko API. This could be solved by leveraging React Query's caching, which dramatically improved the effeciency of the API calls.
